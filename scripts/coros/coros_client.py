@@ -4,8 +4,8 @@ import hashlib
 
 import certifi
 
-from ..coros.region_config import REGIONCONFIG
-from ..coros.sts_config import STS_CONFIG
+from .region_config import REGIONCONFIG
+from .sts_config import STS_CONFIG
 
 
 class CorosClient:
