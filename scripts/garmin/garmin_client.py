@@ -55,7 +55,7 @@ class GarminClient:
      
      params = {"start": str(start), "limit": str(limit)}
      activities =  self.connectapi(path=GARMIN_URL_DICT["garmin_connect_activities"], params=params)
-     return activities;
+     return activities
 
   # ## 获取所有运动
   # def getAllActivities(self): 

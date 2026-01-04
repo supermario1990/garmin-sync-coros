@@ -32,3 +32,5 @@ config.yaml
 /webdav-fit
 /garmin-fit
 /coros-fit
+.env
+.venv
