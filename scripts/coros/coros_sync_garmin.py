@@ -1,7 +1,7 @@
 import json
 import os
-from scripts.config import DB_DIR, COROS_FIT_DIR
-from scripts.garmin.garmin_client import GarminClient
+from ..config import DB_DIR, COROS_FIT_DIR
+from ..garmin.garmin_client import GarminClient
 from coros_client import CorosClient
 
 SYNC_CONFIG = {
